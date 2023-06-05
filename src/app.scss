@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+
+    hr{
+        margin: 25px 0;
+    }
+
+    .wrapper{
+        padding: 100px 15.625rem 50px 15.625rem;
+
+        .top{
+            p{
+                margin: 20px 0;
+                font-size: 20px;
+            }
+    
+            .social-container{
+                .icon{
+                    font-size: 30px !important;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .center{
+            display: flex;
+            flex-direction: column;
+
+            .projects{
+                display: flex;
+                .project-container{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 20px 0;
+                    .image{
+                        width: 50%;
+                        height: 20vh;
+                        overflow: hidden;
+                        margin-bottom: 15px;
+    
+                        img{
+                           width: 100%;
+                           transition: all 10s ease;
+                        }
+                    }
+                    .image:hover img{
+                        transform: translateY(-100%);
+                    }
+                    .info{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+    
+                        h4{
+                            margin-bottom: 5px;
+                        }
+    
+                        .links{
+                            margin-top: 10px;
+    
+                            a{
+                                text-decoration: none;
+                                margin-right: 20px;
+                                color: black;
+                                font-weight:500;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            
+
+           
+        }
+        .bottom{
+            h3{
+                margin-bottom: 10px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+
+                input{
+                    width: 50%;
+                    padding: 10px 5px;
+                    border: none;
+                    border-bottom: 1px solid black;
+                    margin-bottom: 20px;
+                    outline: none;
+                    font-weight: 500;
+                }
+                textarea{
+                    outline: none;
+                    padding: 5px;
+                    resize: none;
+                    width: 70%;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+                button{
+                    width: 15%;
+                    padding: 10px 0;
+                    border: 1.5px solid black;
+                    background-color: white;
+                    color: black;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            
+        }
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span{
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            .location, .contact{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+            }
+        }
+
+        
+    }
+}
