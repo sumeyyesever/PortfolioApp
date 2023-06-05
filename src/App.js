@@ -29,7 +29,7 @@ function App() {
         <p>I'm computer engineering student in Turkey. I want to improve myself on full-stack web development. 
         I'm currently working on back-ends of the projects below.</p>
         <div className="social-container">
-          <LinkedIn className="icon" onClick={() =>  window.open('https://www.linkedin.com/in/s%C3%BCmeyye-sever-11249614a/', "_blank")}/>
+          <LinkedIn className="icon" onClick={() =>  window.open('https://www.linkedin.com/in/sumeyyesever/', "_blank")}/>
           <GitHub className="icon" onClick={() =>  window.open('https://github.com/sumeyyesever', "_blank")}/>
         </div>
       </div>
