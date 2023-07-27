@@ -60,7 +60,7 @@ function App() {
             <span>▪️ react</span>
             <span>▪️ sass</span>
             <div className="links">
-            <a target="_blank" rel="noreferrer" href="https://github.com/sumeyyesever/Ecommerce-App">📍<u>code</u></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/sumeyyesever/EcommerceApp">📍<u>code</u></a>
             <a target="_blank" rel="noreferrer" href="https://smymarket.netlify.app/">📍<u>demo page</u></a>
             </div>    
           </div>
